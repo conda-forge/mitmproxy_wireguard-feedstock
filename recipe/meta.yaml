@@ -17,7 +17,7 @@ build:
     - export PYO3_CROSS_PYTHON_VERSION=$PY_VER
     {% endif %}
     - {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 2
   skip: True  # [py<37]
 
 requirements:
